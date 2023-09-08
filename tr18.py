@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[5]:
-
-
 import streamlit as st
 import pickle
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -46,7 +40,7 @@ def lemmatizer(text):
 
 st.title("Sentiment Analysis App")
 st.markdown("By Hema Nageswari Devi")
-image = Image.open('C:\\Users\\hemak\\OneDrive\\Desktop\\sentiment.jpeg')
+image = Image.open('sentiment.jpeg')
 st.image(image, use_column_width=True)
 
 st.subheader("Enter your text here:")
@@ -73,10 +67,3 @@ if st.button("Predict"):
             st.subheader("The sentiment of the given text is: Positive")
     else:
         st.subheader("Please enter a text for prediction.")
-
-
-# In[ ]:
-
-
-
-
