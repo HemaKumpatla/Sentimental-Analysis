@@ -1,13 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
-
-
-get_ipython().system('pip install streamlit')
-
-
-# In[6]:
+# In[1]:
 
 
 import streamlit as st
