@@ -6,6 +6,7 @@
 
 import streamlit as st
 import pickle
+from sklearn.feature_extraction.text import TfidfVectorizer
 from PIL import Image
 import re
 import string
